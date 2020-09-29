@@ -1,13 +1,125 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.main_div {
+  width: 100%;
+  height: 100vh;
+  background-color: #6983aa;
+  background-size: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.center_div {
+  width: 25%;
+  height: 83vh;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-top: 17px;
+  color: white;
+  font-size: 1.7rem;
+  background: transparent;
+  background-color: #8566aa;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 6px 0px 4px 0;
+  margin-bottom: 10px;
+}
+
+input {
+  text-align: center;
+  top: 10px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  width: 57.5%;
+  outline: none;
+  border-bottom: 2px solid #8566aa;
+}
+
+button {
+  height: 37 px;
+  width: 37px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #8566aa;
+  color: white;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #20bf6b;
+}
+
+ol {
+  margin-top: 30px;
+}
+
+ol li {
+  padding-left: 10px;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 575;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: #8566aa;
+  text-transform: capitalize;
+}
+
+.todo_style {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+
+.todo_style .fa-times {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8566aa;
+  border-radius: 50%;
+  margin: 0px 0px 0px 10px;
+  color: aliceblue;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.todo_style .fa-times:hover {
+  background-color: crimson;
+}
+
+.todo_style .fa-times .list_style {
+  background-color: crimson;
+}
+
+@media (max-width: 768px) {
+  .center_div {
+    width: 55%;
+  }
+}
+
+@media (min-height: 768px) {
+  .main_div {
+    height: auto;
+    background-color: #6983aa;
+  }
 }
