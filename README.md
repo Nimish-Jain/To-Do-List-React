@@ -5,3 +5,6 @@ This gives a very good idea for implementation of the concepts learnt in React J
 
 Try the app at the following link : https://github.com/Nimish-Jain/To-Do-List-React
 
+![Screenshot_1](SS_1.png)
+
+![Screenshot_2](SS_2.png)
