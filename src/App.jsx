@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TDL from "./TDL";
 
 const App = () => {
+  const fff = "Empty task entered...";
   const [inputlist, setinputlist] = useState("");
   const [Items, setItems] = useState([]);
 
@@ -11,7 +12,12 @@ const App = () => {
 
   const AddItems = () => {
     setItems((oldItems) => {
-      return [...oldItems, inputlist];
+      if (inputlist == "") {
+        alert("You are entering an empty task!");
+        return [...oldItems, fff];
+      } else {
+        return [...oldItems, inputlist];
+      }
     });
     setinputlist("");
   };
