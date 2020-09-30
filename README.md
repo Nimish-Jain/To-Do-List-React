@@ -7,4 +7,6 @@ Try the app at the following link : https://nimish-jain.github.io/To-Do-List-Rea
 
 ![Screenshot_1](SS_1.png)
 
-![Screenshot_2](SS_2.png)
+![Screenshot_2](SS_3.png)
+
+![Screenshot_3](SS_2.png)
