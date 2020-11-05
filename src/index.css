@@ -23,6 +23,11 @@
   background-color: #f4f4f4;
   border-radius: 12px;
   box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  overflow: scroll;
+}
+
+.center_div::-webkit-scrollbar {
+  display: none;
 }
 
 h1 {
